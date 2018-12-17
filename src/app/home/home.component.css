@@ -1,0 +1,35 @@
+.cont{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+ul li{
+ 
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+
+}
+
+.card-img{
+    max-height: 620px;
+}
+
+.li-element{
+    width: 500px;
+    height: 50%;
+}
+
+/* Overlay element */
+ .ovl{
+     opacity: 0;
+     transition: 0.75s;
+ }
+
+ .ovl:hover{
+     opacity: 1;
+     background: rgb(0,0,0,0.5);
+ }
